@@ -22,7 +22,7 @@
 
         if (distance < 0) {
             document.getElementById("headline").innerText = "Hello!";
-            document.getElementById("countdown").style.display = "none";
+            document.getElementById("timer").style.display = "none";
             document.getElementById("content").style.display = "block";
             clearInterval(x);
         }
